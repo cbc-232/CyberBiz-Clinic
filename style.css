@@ -67,11 +67,13 @@ header.sticky{
     padding: 12px 10%;
 }
 
-img{
+#logo{
     width: 100px; 
     height: auto; 
-    display: block; 
-    margin: 0;
+    position: relative;
+    top: -3px;
+    left: -5px;
+    z-index: 1;
 
 }
 
@@ -81,16 +83,20 @@ span{
 
 .navlist{
     display: flex;
+    position: relative;
+    top: 0;
+    right: 0;
 }
 
 .navlist a{
     display: inline-block;
     color: var(--text-color);
     font-weight: 500;
-    padding: 10px 20px;
+    padding: 10px 25px;
     animation: slideAnimation 1s ease forwards;
     animation-delay: calc(.3s * var(--i));
     opacity: 0;
+    right: 2;
 }
 
 .navlist a:hover{
@@ -113,6 +119,9 @@ span{
     font-size: 1.8rem;
     z-index: 10001;
     cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
     margin-left: 25px;
     background: var(--hover-color);
     border-radius: 3px;
@@ -351,7 +360,7 @@ section{
     position: relative;
 }
 
-.about .img-about img{
+.about img{
     max-width: 450px;
     height: auto;
 }

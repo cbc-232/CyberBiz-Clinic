@@ -121,7 +121,7 @@ span{
     cursor: pointer;
     position: fixed;
     top: 20px;
-    right: 20px;
+    right: 50px;
     margin-left: 25px;
     background: var(--hover-color);
     border-radius: 3px;

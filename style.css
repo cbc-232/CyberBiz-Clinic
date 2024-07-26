@@ -569,22 +569,22 @@ section{
 }
 
 .skill-bar .bar .Hardware{
-    width: 86%;
+    width: 96%;
     animation: hardware 4s;
 }
 
 .skill-bar .bar .Coding{
-    width: 80%;
+    width: 90%;
     animation: coding 4.5s;
 }
 
 .skill-bar .bar .Network{
-    width: 83%;
+    width: 88%;
     animation: network 5s;
 }
 
 .skill-bar .bar .Operating{
-    width: 89%;
+    width: 93%;
     animation: operating 5.5s;
 }
 
@@ -595,7 +595,7 @@ section{
 }
 
 .skill-bar .bar .Cloud{
-    width: 75%;
+    width: 90%;
     animation: cloud 6.5s
 }
 
